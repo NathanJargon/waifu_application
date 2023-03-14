@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget{
                   )
               ),
               SliverPadding(
-                padding: const EdgeInsets.all(defaultPadding),
+                padding: const EdgeInsets.only(top: defaultPadding, left: defaultPadding, right: defaultPadding),
                 sliver: SliverToBoxAdapter(
                   child: Image.asset("assets/9.jpg"),
                 ),
